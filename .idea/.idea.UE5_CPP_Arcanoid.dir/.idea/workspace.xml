@@ -4,18 +4,18 @@
     <projectFile>UE5_CPP_Arcanoid.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/HoloLens/HoloLensEngine.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UE5_CPP_Arcanoid.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UE5_CPP_Arcanoid.uproject" afterDir="false" />
+    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="added Paddle class">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -32,15 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="UE5_CPP_Arcanoid" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/UE5_CPP_Arcanoid.uproject" />
@@ -93,8 +94,16 @@
       <option name="presentableId" value="Default" />
       <updated>1655578568224</updated>
       <workItem from="1655578572463" duration="19000" />
-      <workItem from="1655578630844" duration="1553000" />
+      <workItem from="1655578630844" duration="3958000" />
     </task>
+    <task id="LOCAL-00001" summary="added Paddle class">
+      <created>1655610619124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655610619125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +125,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="added Paddle class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Paddle class" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

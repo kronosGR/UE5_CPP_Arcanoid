@@ -13,9 +13,7 @@ APaddle::APaddle()
 	RootComponent = SM_Paddle;
 
 	SM_Paddle->SetEnableGravity(false);
-
-	// constraint the paddle movement on Z and X
-	SM_Paddle->SetConstraintMode(EDOFMode::XZPlane);
+	
 	SM_Paddle->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	SM_Paddle->SetCollisionProfileName(TEXT("PhysicsActor"));
 
@@ -27,6 +25,8 @@ void APaddle::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	// constraint the paddle movement on Z and X
+	SM_Paddle->SetConstraintMode(EDOFMode::XZPlane);
 }
 
 // Called every frame
@@ -45,6 +45,6 @@ void APaddle::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void APaddle::MoveHorizontal(float AxisValue)
 {
-	
+	AddMovementInput(FVector(AxisValue, 0.f, 0.f),1.f, false);
 }
 
