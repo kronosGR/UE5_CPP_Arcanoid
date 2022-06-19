@@ -4,10 +4,9 @@
     <projectFile>UE5_CPP_Arcanoid.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="added Paddle class">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" afterDir="false" />
+    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="fixed a small bug">
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE5_CPP_Arcanoid/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -94,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655578568224</updated>
       <workItem from="1655578572463" duration="19000" />
-      <workItem from="1655578630844" duration="3958000" />
+      <workItem from="1655578630844" duration="4401000" />
     </task>
     <task id="LOCAL-00001" summary="added Paddle class">
       <created>1655610619124</created>
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655610619125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed a small bug">
+      <created>1655613045767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655613045767</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +133,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added Paddle class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Paddle class" />
+    <MESSAGE value="fixed a small bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a small bug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
