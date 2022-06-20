@@ -4,9 +4,11 @@
     <projectFile>UE5_CPP_Arcanoid.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="set the new controller to game mode">
-      <change afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="Move paddle left and right">
+      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE5_CPP_Arcanoid/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE5_CPP_Arcanoid/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655578568224</updated>
       <workItem from="1655578572463" duration="19000" />
-      <workItem from="1655578630844" duration="5683000" />
+      <workItem from="1655578630844" duration="6638000" />
     </task>
     <task id="LOCAL-00001" summary="added Paddle class">
       <created>1655610619124</created>
@@ -138,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655613956279</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="configured keyboard mappings">
+      <created>1655704098289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655704098289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Move paddle left and right">
+      <created>1655704343430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655704343430</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +183,9 @@
     <MESSAGE value="added camera" />
     <MESSAGE value="added custom player controller" />
     <MESSAGE value="set the new controller to game mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="set the new controller to game mode" />
+    <MESSAGE value="configured keyboard mappings" />
+    <MESSAGE value="Move paddle left and right" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move paddle left and right" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
