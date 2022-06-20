@@ -3,6 +3,7 @@
 
 #include "Paddle_Player_Controller.h"
 
+#include "Paddle.h"
 #include "Camera/CameraActor.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -14,7 +15,8 @@ void APaddle_Player_Controller::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
-	
+	EnableInput(this);
+	InputComponent->BindAxis("MoveHorizontal", this, &APaddle_Player_Controller::MoveHorizontal);
 }
 
 void APaddle_Player_Controller::BeginPlay()
@@ -30,4 +32,10 @@ void APaddle_Player_Controller::BeginPlay()
 
 void APaddle_Player_Controller::MoveHorizontal(float AxisValue)
 {
+	APaddle* MyPawn = Cast<APaddle>(GetPawn());
+
+	if (MyPawn)
+	{
+		MyPawn->MoveHorizontal(AxisValue);
+	}
 }
