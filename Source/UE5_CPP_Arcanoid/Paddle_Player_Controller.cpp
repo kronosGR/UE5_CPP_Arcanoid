@@ -13,6 +13,8 @@ APaddle_Player_Controller::APaddle_Player_Controller()
 void APaddle_Player_Controller::SetupInputComponent()
 {
 	Super::SetupInputComponent();
+
+	
 }
 
 void APaddle_Player_Controller::BeginPlay()

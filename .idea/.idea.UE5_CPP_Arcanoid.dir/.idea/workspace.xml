@@ -4,9 +4,9 @@
     <projectFile>UE5_CPP_Arcanoid.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="added camera">
-      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.h" afterDir="false" />
+    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="set the new controller to game mode">
+      <change afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655578568224</updated>
       <workItem from="1655578572463" duration="19000" />
-      <workItem from="1655578630844" duration="4827000" />
+      <workItem from="1655578630844" duration="5683000" />
     </task>
     <task id="LOCAL-00001" summary="added Paddle class">
       <created>1655610619124</created>
@@ -124,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655613516521</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added custom player controller">
+      <created>1655613908773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655613908773</updated>
+    </task>
+    <task id="LOCAL-00006" summary="set the new controller to game mode">
+      <created>1655613956279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655613956279</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +164,9 @@
     <MESSAGE value="fixed a small bug" />
     <MESSAGE value="added custom gamemode" />
     <MESSAGE value="added camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="added camera" />
+    <MESSAGE value="added custom player controller" />
+    <MESSAGE value="set the new controller to game mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="set the new controller to game mode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
