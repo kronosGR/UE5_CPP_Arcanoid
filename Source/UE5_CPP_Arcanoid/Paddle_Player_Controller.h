@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Ball.h"
 #include "GameFramework/PlayerController.h"
 #include "Paddle_Player_Controller.generated.h"
 
@@ -24,5 +25,18 @@ protected:
 
 	void MoveHorizontal(float AxisValue);
 
+	void Launch();
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<ABall> BallObj;
+
+	ABall* MyBall;
+
+	FVector SpawnLocation = FVector(10.f, 0.f, 40.f);
+	FRotator SpawnRotation = FRotator(0.f, 0.f, 0.f);
+	FActorSpawnParameters SpawnInfo;
+
+public:
+	void SpawnNewBall();
 	
 };

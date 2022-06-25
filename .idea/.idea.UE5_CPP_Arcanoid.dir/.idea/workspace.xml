@@ -4,10 +4,10 @@
     <projectFile>UE5_CPP_Arcanoid.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="">
+    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="created bp after ball">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE5_CPP_Arcanoid/Source/UE5_CPP_Arcanoid/Ball.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.h" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -95,7 +96,7 @@
       <updated>1655578568224</updated>
       <workItem from="1655578572463" duration="19000" />
       <workItem from="1655578630844" duration="7838000" />
-      <workItem from="1656136937603" duration="2863000" />
+      <workItem from="1656136937603" duration="4065000" />
     </task>
     <task id="LOCAL-00001" summary="added Paddle class">
       <created>1655610619124</created>
@@ -160,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655705024003</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="aded ball movement and ball BP">
+      <created>1656151318047</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656151318048</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created bp after ball">
+      <created>1656151350750</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656151350750</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +206,9 @@
     <MESSAGE value="configured keyboard mappings" />
     <MESSAGE value="Move paddle left and right" />
     <MESSAGE value="setup ball" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup ball" />
+    <MESSAGE value="aded ball movement and ball BP" />
+    <MESSAGE value="created bp after ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="created bp after ball" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
