@@ -4,11 +4,10 @@
     <projectFile>UE5_CPP_Arcanoid.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="Move paddle left and right">
-      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.h" afterDir="false" />
+    <list default="true" id="93081cc6-c5f9-42e4-b651-302e3dbac13e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE5_CPP_Arcanoid.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Paddle_BP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Ball.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE5_CPP_Arcanoid/Source/UE5_CPP_Arcanoid/Paddle.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE5_CPP_Arcanoid/Paddle.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE5_CPP_Arcanoid/Source/UE5_CPP_Arcanoid/Paddle_Player_Controller.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;UnrealLinkOptionsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="UE5_CPP_Arcanoid" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/UE5_CPP_Arcanoid.uproject" />
@@ -97,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655578568224</updated>
       <workItem from="1655578572463" duration="19000" />
-      <workItem from="1655578630844" duration="6638000" />
+      <workItem from="1655578630844" duration="7838000" />
+      <workItem from="1656136937603" duration="2863000" />
     </task>
     <task id="LOCAL-00001" summary="added Paddle class">
       <created>1655610619124</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655704343430</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="setup ball">
+      <created>1655705024003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655705024003</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +190,8 @@
     <MESSAGE value="set the new controller to game mode" />
     <MESSAGE value="configured keyboard mappings" />
     <MESSAGE value="Move paddle left and right" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move paddle left and right" />
+    <MESSAGE value="setup ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup ball" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -15,6 +15,7 @@ void APaddle_Player_Controller::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
+	// enable input and bind axis to a method
 	EnableInput(this);
 	InputComponent->BindAxis("MoveHorizontal", this, &APaddle_Player_Controller::MoveHorizontal);
 }
@@ -23,9 +24,11 @@ void APaddle_Player_Controller::BeginPlay()
 {
 	Super::BeginPlay();
 
+
+	// get all actors
 	TArray<AActor*> CameraActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACameraActor::StaticClass(), CameraActors);
-
+	
 	FViewTargetTransitionParams Params;
 	SetViewTarget(CameraActors[0], Params);
 }
