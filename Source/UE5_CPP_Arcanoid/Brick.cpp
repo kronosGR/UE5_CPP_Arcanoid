@@ -16,6 +16,7 @@ ABrick::ABrick()
 	Box_Collision->SetBoxExtent(FVector(25.0f, 10.f, 10.f));
 
 	RootComponent= Box_Collision;
+	SM_Brick->SetupAttachment(Box_Collision);
 }
 
 // Called when the game starts or when spawned
