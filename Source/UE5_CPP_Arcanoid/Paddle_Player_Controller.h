@@ -27,7 +27,7 @@ protected:
 
 	void Launch();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere)
 	TSubclassOf<ABall> BallObj;
 
 	ABall* MyBall;
